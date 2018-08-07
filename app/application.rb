@@ -32,3 +32,10 @@ class Application
     end
   end
 end
+
+  @@cart = []
+  
+  def handle_cart
+    
+
+  end
