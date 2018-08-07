@@ -44,5 +44,6 @@ end
   end
 
   def handle_add(item)
+    item["path"]
 
   end
