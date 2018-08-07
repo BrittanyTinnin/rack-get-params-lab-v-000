@@ -17,9 +17,9 @@ class Application
        resp.write handle_cart
      elsif req.path.match(/add/)
        resp.write handle_add
-    else
+     else
       resp.write "Path Not Found"
-    end
+     end
 
     resp.finish
   end
