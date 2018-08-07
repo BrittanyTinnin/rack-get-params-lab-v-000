@@ -35,7 +35,6 @@ class Application
       return "Couldn't find #{search_term}"
     end
   end
-end
 
 
   def handle_cart
@@ -51,3 +50,4 @@ end
   def handle_add(item)
 
   end
+end
