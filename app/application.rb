@@ -42,3 +42,7 @@ end
       @@cart.join("\n")
     end
   end
+
+  def handle_add
+    
+  end
