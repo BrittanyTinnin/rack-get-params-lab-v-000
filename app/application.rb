@@ -39,6 +39,6 @@ end
     if @@cart.empty?
       "Your cart is empty"
     else
-      @@cart
+      @@cart.join(\n)
     end
   end
