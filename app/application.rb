@@ -44,6 +44,6 @@ end
   end
 
   def handle_add(item)
-    item["path"]
+    @@cart << item["path"]
 
   end
