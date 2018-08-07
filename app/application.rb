@@ -51,7 +51,6 @@ class Application
       @@cart << item
       "added #{item}"
     else
-      if !@@items.include?(item) == false
         "We don't have that item"
       end
     end
