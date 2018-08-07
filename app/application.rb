@@ -50,6 +50,10 @@ class Application
     if @@items.include?(item)
       @@cart << item
       "added #{item}"
+    else
+      if !@@items.include?(item) == false
+        "We don't have that item"
+      end
     end
     # binding.pry
   end
