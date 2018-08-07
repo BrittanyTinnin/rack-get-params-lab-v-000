@@ -39,6 +39,6 @@ end
     if @@cart.empty?
       "Your cart is empty"
     else
-      @@cart.each {|item| "#{item}"}.join(", ")
+      @@cart
     end
   end
