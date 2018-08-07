@@ -47,7 +47,7 @@ class Application
 
   def handle_add(item)
     @@cart << item["path"]
-    binding.pry
+    # binding.pry
 
   end
 end
