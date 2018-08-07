@@ -46,6 +46,6 @@ end
   end
 
   def handle_add(item)
-    @@cart << item["path"]
     binding.pry
+    @@cart << item["path"]
   end
