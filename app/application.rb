@@ -37,8 +37,8 @@ end
 
   def handle_cart
     if @@cart.empty?
-      resp.write "Your cart is empty"
+      "Your cart is empty"
     else
-      @@cart.each {|item| resp.write "#{item}"}
+      @@cart.each {|item| "#{item}"}
     end
   end
