@@ -20,7 +20,7 @@ class Application
      elsif req.path.match(/cart/)
        resp.write handle_cart
      elsif req.path.match(/add/)
-       resp.write handle_add
+       resp.write handle_add(item)
      else
       resp.write "Path Not Found"
      end
