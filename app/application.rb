@@ -39,7 +39,7 @@ end
 
 
   def handle_cart
-    if @@cart.empty?
+    if @@cart == []
       "Your cart is empty"
     else
       @@cart.join("\n")
