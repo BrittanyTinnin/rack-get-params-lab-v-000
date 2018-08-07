@@ -39,7 +39,6 @@ class Application
 
   def handle_cart
     # binding.pry
-    @@cart << item["path"]
     if @@cart.size == 0
       "Your cart is empty"
     else
@@ -48,6 +47,7 @@ class Application
   end
 
   def handle_add(item)
+    @@cart << item["path"]
 
   end
 end
