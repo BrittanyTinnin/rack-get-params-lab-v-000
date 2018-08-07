@@ -48,7 +48,9 @@ class Application
   end
 
   def handle_add(item)
-    @@cart << item
+    if @@items.include(item)
+      @@cart << item
+    end
     # binding.pry
   end
 end
