@@ -52,7 +52,6 @@ class Application
       "added #{item}"
     else
         "We don't have that item"
-      end
     end
     # binding.pry
   end
