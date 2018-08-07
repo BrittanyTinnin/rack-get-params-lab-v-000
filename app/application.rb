@@ -39,6 +39,6 @@ end
     if @@cart.empty?
       "Your cart is empty"
     else
-      @@cart.each {|item| "#{item}"}
+      @@cart.each {|item| "#{item}\n"}
     end
   end
